@@ -1,0 +1,66 @@
+                        4th module of Angular
+
+spi- Single Page Appliction is used for only one time.
+
+interpolation{{}}
+
+selector name:
+    
+Angular have the Mvc Compent
+
+view is a templatefile.
+
+Export is nothing but it is like a public where we want we can use
+
+
+  Data binding it have two types that are
+
+1.One WayBinding= interpollation {{}}
+                  property Binding     }
+                  Event Binding  
+2.Two wayBinding
+property Binding -[src] from compent to the view page.
+EventBinding-Base on the event it is going to bind the data calling method
+
+2way binding is nothing but viewttocompent compenttoview which we use in the forms.in ng model
+property binding[]
+EventBinding we use()
+combined property and event binding and twoway Binding
+
+Direct as product and creating the class for  ng g c product  class and we give ng serve  for the out
+
+
+
+   11-9-2024
+
+
+
+Directives-ngif 
+pipes-ng switch
+forms have 2 types one is template deiver-preliy created to the form we have to secify as ang model) formcontrollname as a form.
+and reactiveforms
+compent interactor- parentcompent and child compent  }-parent data form parent to child  and event  used 4 tragged by child
+
+                  Parent Child Compents
+
+
+parent compent wil call the child compent. parent data wll be assin  by the passing data model.and assin the method of parent compent.
+
+2nd one is child compent
+@ input()
+@output()- we call the event emperenting who will perform the event.
+         Code:-
+@input() <count:number=0:
+@output()countchanged =new eventeimater
+
+
+<p>{{firstname}} {{lastname}}</p>
+<button (click)= "counter()"> click</button>
+<p> counter{{count}}</p>
+
+<img [src]="imageurl" alt="Description of image">
+<input[(ngModel)]="studentname" placeholder="enter th name" class="form-control>"
+<button (click)="greeting()">Click me</button>
+
+
+ 
